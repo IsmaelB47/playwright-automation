@@ -1,0 +1,67 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "tasks": [
+    {
+      "app": "Web Application",
+      "task": "Implement user authentication",
+      "column": "To Do",
+      "tags": [
+        "Feature",
+        "High Priority"
+      ]
+    },
+    {
+      "app": "Web Application",
+      "task": "Fix navigation bug",
+      "column": "To Do",
+      "tags": [
+        "Bug"
+      ]
+    },
+    {
+      "app": "Web Application",
+      "task": "Design system updates",
+      "column": "In Progress",
+      "tags": [
+        "Design"
+      ]
+    },
+    {
+      "app": "Mobile Application",
+      "task": "Push notification system",
+      "column": "To Do",
+      "tags": [
+        "Feature"
+      ]
+    },
+    {
+      "app": "Mobile Application",
+      "task": "Offline mode",
+      "column": "In Progress",
+      "tags": [
+        "Feature",
+        "High Priority"
+      ]
+    },
+    {
+      "app": "Mobile Application",
+      "task": "App icon design",
+      "column": "Done",
+      "tags": [
+        "Design"
+      ]
+    }
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
